@@ -122,7 +122,8 @@ An OC inscription can hold secret data while still existing transparently on-cha
 * * * 
 
 # Inscribe attribution data only
-`{
+```
+{
 	"p":"oc",
 	"credit":[
 		{
@@ -138,7 +139,8 @@ An OC inscription can hold secret data while still existing transparently on-cha
 			"weight":1
 		}
 	]
-}`
+}
+```
 
 `credit` lists can be created independently of content.
 
