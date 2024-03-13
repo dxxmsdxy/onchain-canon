@@ -235,6 +235,13 @@ Extending locking/unlocking permissions to grand-parent inscriptions allows for 
 				}
 			]
 		}
+	],
+	"credit":[
+		{
+			"desc":"Carmen",
+			"content":"Editor"
+			"credit":"bc1qrhlw047ju02vlt5sk9e9cctn04x8hes5rlc5zl"
+		}
 	]
 }
 ```
