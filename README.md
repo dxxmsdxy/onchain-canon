@@ -239,7 +239,7 @@ Extending locking/unlocking permissions to grand-parent inscriptions allows for 
 	"credit":[
 		{
 			"desc":"Carmen",
-			"content":"Editor"
+			"content":"Producer"
 			"credit":"bc1qrhlw047ju02vlt5sk9e9cctn04x8hes5rlc5zl"
 		}
 	]
@@ -247,6 +247,8 @@ Extending locking/unlocking permissions to grand-parent inscriptions allows for 
 ```
 
 If credit is associated with specific content, it can be included with the content.
+
+In the above example, Albus and Brolly are credited for their creative work, while Carmen is credited for producing. Albus and Brolly's credits are weighted 3:1 on "Cartesian the Dog". Carmen, 
 
 </br>
 
