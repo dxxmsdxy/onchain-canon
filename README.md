@@ -47,7 +47,7 @@ Markdown can be used for rich text content.
 }
 ```
 
-Inscribe multiple contents by including them as `content` entries in an array.
+The `content` field can be used recursively to include multiple contents.
 
 `desc` can be included to describe individual content items.
 
@@ -90,7 +90,7 @@ An OC inscription with no credits assigned is attributed to its parent inscripti
 }
 ```
 
-The `credit` field can be used to credit multiple parties.
+The `credit` field can be used recursively to credit multiple parties.
 
 `desc` can be included to describe the credited entity.
 
@@ -246,9 +246,9 @@ If credit is associated with specific content, it can be included with the conte
 ## Recursive applications
 Previous OC inscriptions can be referenced in both the content and credit fields of new OC’s using their inscription ID.
 
-* Credit prior work, or create teams and nested attribution schemes by including existing OC inscriptions with credits in the credit field of new OC inscriptions.
-* Create copies of OC content by including it's inscription ID in the content field of a new OC inscription.
-* Create bundles of IP by including multiple existing OC inscriptions in the content field of a new OC inscription.
+* Credit prior work, or create teams and nested attribution schemes by including existing OC inscriptions with credits in the `credit` field of new OC inscriptions.
+* Create copies of OC content by including it's inscription ID in the `content` field of a new OC inscription.
+* Create bundles of IP by including multiple existing OC inscriptions in the `content` field of a new OC inscription.
 
 </br>
 
