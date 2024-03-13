@@ -183,6 +183,34 @@ Provenance requirements such as creator address or parent-child can be used to v
 
 * * *
 
+# Replacing OC inscription data
+```
+{"p":"oc"}
+```
+
+Previous OC inscription data can be “primed” by inscribing a blank OC message on an existing OC inscription.
+
+Primed OC inscriptions are ignored.
+
+Primed OC inscriptions can be normalized by re-inscribing a second sequential blank OC message.
+
+Inscribing OC content and/or credit data on a primed OC inscription 'replaces' its previous content.
+
+Replaced OC data remains immutably on-chain.
+
+Provenance requirements such as a creator address or parent-child can be used to validate changes to OC data.
+
+* * *
+
+# Locking OC inscriptions
+OC inscriptions can be “locked” to prevent future changes.
+
+Parent-child inscription can be used to 'lock' OC's by simply burning the relevant parent.
+
+Extending locking/unlocking permissions to grand-parent inscriptions allows for multi-tiered and provisional governance of OC inscription data.
+
+* * * 
+
 # Nested contents and credits
 ```
 {
@@ -221,34 +249,6 @@ Provenance requirements such as creator address or parent-child can be used to v
 ```
 
 If credit is associated with specific content, it can be included with the content.
-
-* * * 
-
-# Replacing OC inscription data
-```
-{"p":"oc"}
-```
-
-Previous OC inscription data can be “primed” by inscribing a blank OC message on an existing OC inscription.
-
-Primed OC inscriptions are ignored.
-
-Primed OC inscriptions can be normalized by re-inscribing a second sequential blank OC message.
-
-Inscribing OC content and/or credit data on a primed OC inscription 'replaces' its previous content.
-
-Replaced OC data remains immutably on-chain.
-
-Provenance requirements such as a creator address or parent-child can be used to validate changes to OC data.
-
-* * *
-
-# Locking OC inscriptions
-OC inscriptions can be “locked” to prevent future changes.
-
-Parent-child inscription can be used to 'lock' OC's by simply burning the relevant parent.
-
-Extending locking/unlocking permissions to grand-parent inscriptions allows for multi-tiered and provisional governance of OC inscription data.
 
 * * * 
 
