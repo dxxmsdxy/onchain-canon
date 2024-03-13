@@ -63,7 +63,7 @@ The `content` field can be used recursively to include multiple contents.
 }
 ```
 
-With the `credit` field, an OC inscription can be attributed to an identifier, Bitcoin address, or inscription ID.
+With the `credit` field, an OC inscription can be attributed to an inscription ID, Bitcoin address, or other identifier.
 
 An OC inscription with no credits assigned is attributed to its parent inscription. If there is no parent, then it is attributed to its original creator’s Bitcoin address.
 
