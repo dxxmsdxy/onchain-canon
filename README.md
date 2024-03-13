@@ -194,11 +194,9 @@ Provenance requirements such as a creator address or parent-child can be used to
 </br>
 
 ## Locking OC inscriptions
-OC inscriptions can be “locked” to prevent future changes.
+Parent-child inscription can be used to 'lock' OC's by simply burning the relevant parent, preventing future updates with that provenance.
 
-Parent-child inscription can be used to 'lock' OC's by simply burning the relevant parent.
-
-Extending locking/unlocking permissions to grand-parent inscriptions allows for multi-tiered and provisional governance of OC inscription data.
+Extending locking/unlocking permissions to grand-parent and ancestor inscriptions allows for multi-tiered and provisional governance of OC inscription data.
 
 </br>
 
