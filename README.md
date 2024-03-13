@@ -158,7 +158,7 @@ Useful for re-using a previous attribution scheme.
 
 In addition to OC inscriptions representing remote content, existing inscriptions, such as images or code, can be re-inscribed with OC data that references the original inscription's ID in the `content` field.
 
-For example, owning an art inscription may provide its owner with rights under a particular license.
+For example, owning an art inscription may provide its owner with rights by including a particular license.
 
 Note that an existing inscription can also be re-inscribed with OC data representing remote content.
 
