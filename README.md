@@ -247,7 +247,8 @@ If credit is associated with specific content, it can be included with the conte
 Previous OC inscriptions can be referenced in both the content and credit fields of new OC’s using their inscription ID.
 
 * Credit prior work, or create teams and nested attribution schemes by including existing OC inscriptions with credits in the credit field of new OC inscriptions.
-* Create copies of an OC by including an existing OC inscription with content in the content field of a new OC inscription while using the original OC inscription as its parent.
+* Create copies of OC content by including it's inscription ID in the content field of a new OC inscription.
+* Create bundles of IP by including multiple existing OC inscriptions in the content field of a new OC inscription.
 
 </br>
 
