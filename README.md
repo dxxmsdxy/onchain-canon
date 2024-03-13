@@ -198,6 +198,8 @@ Parent-child inscription can be used to 'lock' OC's by simply burning the releva
 
 Considering grand-parent and ancestor inscriptions allows for multi-tiered and provisional governance of OC inscription data.
 
+For example, An IP owner could use their own inscription as a parent to create a child inscription that will be used by an IP manager. That inscription is then used as a parent to create and manage an OC inscription, and then is burnt. The IP manager can no longer make valid updates to the OC, however the IP owner still could.
+
 </br>
 
 ## Nested contents and credits
