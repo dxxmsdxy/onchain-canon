@@ -248,9 +248,7 @@ For example, An IP owner could use their own inscription as a parent to create a
 
 If a credit is associated with specific content, it can be included with the content.
 
-In the above example, Albus and Brolly are credited for their creative work, while Carmen is credited for producing. Albus and Brolly's credits are weighted 3:1 on "Cartesian the Dog".
-
-Producing, the creation of "Null the Cat", and the creation of "Cartesian the Dog" are all weighted equally (with default weight of 1).
+In the above example, Albus and Brolly are credited for their creative work, while Carmen is credited for producing. The task of producing, the creation of "Null the Cat", and the creation of "Cartesian the Dog" are all weighted equally (with default weight of 1). Albus and Brolly's credits are weighted 3:1 on "Cartesian the Dog".
 
 Therefore, in this example, Albus is credited the most, Carmen second, and Brolly third.
 
