@@ -89,11 +89,9 @@ An OC inscription with no credits assigned is attributed to its parent inscripti
 
 The `credit` field can be used to credit multiple parties.
 
-`desc` can be included to describe credited entity.
+`desc` can be included to describe the credited entity.
 
-`content` can be included to indicate what they are credited for.
-
-The `weight` value is an integer representing the relative contribution of each party within the scope of that OC inscription.
+The `weight` value is an integer representing the relative contribution of each party within the scope of the same credit envelope.
 
 If no weight is specified, it is assumed to be 1.
 
@@ -249,6 +247,8 @@ Extending locking/unlocking permissions to grand-parent inscriptions allows for 
 ```
 
 If credit is associated with specific content, it can be included with the content.
+
+`content` can be included with a credit to indicate what they are credited for.
 
 * * * 
 
