@@ -11,7 +11,7 @@ OC is a decentralized metaprotocol for on-chain canons. Use the OC metaprotocol 
 {
 	"p":"oc",
 	"desc":"Null the Cat",
-	"content":"A hyper-dimensional being that has assumed the form of a cat."
+	"content":"A hyper-dimensional fugitive that has taken the form of a cat."
 }
 ```
 
@@ -32,11 +32,11 @@ Markdown can be used for rich text content.
 	"content":[
 		{
 			"desc":"Null the Cat",
-			"content":"A hyper-dimensional being that has assumed the form of a cat."
+			"content":"A hyper-dimensional fugitive that has taken the form of a cat."
 		},
 		{
 			"desc":"Cartesian the Dog",
-			"content":"A hyper-dimensional being with…"
+			"content":"A hyper-dimensional detective that has taken the form of a dog."
 		}
 	]
 }
@@ -53,7 +53,7 @@ Inscribe multiple contents by including them as `content` entries in an array.
 {
 	"p":"oc",
 	"desc":"Null the Cat",
-	"content":"A hyper-dimensional being that has assumed the form of a cat.",
+	"content":"A hyper-dimensional fugitive that has taken the form of a cat.",
 	"credit":"f5ac3eb2ba6dec087a4170735d8865fc0019bff5263d431e0496fe4695651b5ai302"
 }
 ```
@@ -69,10 +69,10 @@ An OC inscription with no credits assigned is attributed to its parent inscripti
 {
 	"p":"oc",
 	"desc":"Null the Cat",
-	"content":"A hyper-dimensional being that has assumed the form of a cat.",
+	"content":"A hyper-dimensional fugitive that has taken the form of a cat.",
 	"credit":[
 		{
-			"desc":"Alice",
+			"desc":"Albus",
 			"credit":"f5ac3eb2ba6dec087a4170735d8865fc0019bff5263d431e0496fe4695651b5ai302",
 			"weight":2
 		},
@@ -155,7 +155,7 @@ Useful for re-using a previous attribution scheme.
 {
 	"p":"oc",
 	"desc":"Null the Cat",
-	"content":"A hyper-dimensional being that has assumed the form of a cat.",
+	"content":"A hyper-dimensional fugitive that has taken the form of a cat.",
 	"license":"OCL"
 }
 ```
@@ -218,7 +218,7 @@ Create copies of an OC by including an existing OC inscription with content in t
 {
 	"p":"oc",
 	"desc":"Null the Cat",
-	"content":"A hyper-dimensional being that has assumed the form of a cat.",
+	"content":"A hyper-dimensional fugitive that has taken the form of a cat.",
 	"v":"1.1"
 }
 ```
