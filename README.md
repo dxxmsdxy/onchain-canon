@@ -108,16 +108,6 @@ If no weight is specified, it is assumed to be 1.
 		{"content":"hash"},
 		{"content":"hash"},
 		{"content":"hash"}
-	],
-	"credit":[
-		{
-			"credit":"f5ac3eb2ba6dec087a4170735d8865fc0019bff5263d431e0496fe4695651b5ai302",
-			"weight":50
-		},
-		{
-			"credit":"bc1q0z5x3rsqjqt59mzs42vrwra83a2upprtm7lkc0",
-			"weight":100
-		}
 	]
 }
 ```
