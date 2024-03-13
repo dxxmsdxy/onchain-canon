@@ -1,6 +1,5 @@
 ![oc-gray](https://github.com/dxxmsdxy/On-Chain-Canon/assets/154453317/216369ae-6f6a-4c0b-bb8d-737aafd9aeab)
 
-
 On-Chain Canon (OC)
 ===================
 ***A metaprotocol on for on-chain IP and attribution on Bitcoin***
@@ -90,7 +89,9 @@ An OC inscription with no credits assigned is attributed to its parent inscripti
 
 The `credit` field can be used to credit multiple parties.
 
-`desc` can be included to describe individual credits.
+`desc` can be included to describe credited entity.
+
+`content` can be included to indicate what they are credited for.
 
 The `weight` value is an integer representing the relative contribution of each party within the scope of that OC inscription.
 
@@ -180,6 +181,47 @@ Additional OC content or credits can be appended by re-inscribing an OC includin
 
 Provenance requirements such as creator address or parent-child can be used to validate appended data.
 
+* * *
+
+# Nested contents and credits
+```
+{
+	"p":"oc",
+	"content":[
+		{
+			"desc":"Null the Cat",
+			"content":"A hyper-dimensional fugitive that has taken the form of a cat.",
+			"credit":[
+				{
+					"desc":"Albus",
+					"content":"Creator, Illustrator"
+					"credit":"bc1q0z5x3rsqjqt59mzs42vrwra83a2upprtm7lkc0"
+				}
+			],
+		},
+		{
+			"desc":"Cartesian the Dog",
+			"content":"A hyper-dimensional detective that has taken the form of a dog."
+			"credit":[
+				{
+					"desc":"Albus",
+					"content":"Creator"
+					"credit":"bc1q0z5x3rsqjqt59mzs42vrwra83a2upprtm7lkc0",
+					"weight":3
+				},
+				{
+					"desc":"Brolly",
+					"content":"Illustrator"
+					"credit":"bc1qrhlw047ju02vlt5sk9e9cctn04x8hes5rlc5zl"
+				}
+			]
+		}
+	]
+}
+```
+
+If credit is associated with specific content, it can be included with the content.
+
 * * * 
 
 # Replacing OC inscription data
@@ -187,11 +229,13 @@ Provenance requirements such as creator address or parent-child can be used to v
 {"p":"oc"}
 ```
 
-Previous OC inscription data can be “primed” by re-inscribing a blank OC message on an OC inscription.
+Previous OC inscription data can be “primed” by inscribing a blank OC message on an existing OC inscription.
+
+Primed OC inscriptions are ignored.
 
 Primed OC inscriptions can be normalized by re-inscribing a second sequential blank OC message.
 
-Re-inscribing OC content and/or credit data on a primed OC inscription replaces its previous content.
+Inscribing OC content and/or credit data on a primed OC inscription 'replaces' its previous content.
 
 Replaced OC data remains immutably on-chain.
 
@@ -202,7 +246,7 @@ Provenance requirements such as a creator address or parent-child can be used to
 # Locking OC inscriptions
 OC inscriptions can be “locked” to prevent future changes.
 
-Parent-child inscription can be used for OC locking by simply burning the OC inscription’s parent.
+Parent-child inscription can be used to 'lock' OC's by simply burning the relevant parent.
 
 Extending locking/unlocking permissions to grand-parent inscriptions allows for multi-tiered and provisional governance of OC inscription data.
 
