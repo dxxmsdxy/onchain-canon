@@ -179,7 +179,7 @@ Provenance requirements such as creator address or parent-child can be used to v
 {"p":"oc"}
 ```
 
-Previous OC inscription data can be “primed” by inscribing a blank OC message on an existing OC inscription.
+Existing OC inscriptions can be “primed” by inscribing a blank OC message on an existing OC inscription.
 
 Primed OC inscriptions are ignored.
 
