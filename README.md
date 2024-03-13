@@ -1,4 +1,4 @@
-![oc-gray](https://github.com/dxxmsdxy/On-Chain-Canon/assets/154453317/d5a55969-a5f7-427c-b516-63a8381eadbe)
+![oc-gray](https://github.com/dxxmsdxy/On-Chain-Canon/assets/154453317/216369ae-6f6a-4c0b-bb8d-737aafd9aeab)
 
 
 On-Chain Canon (OC)
