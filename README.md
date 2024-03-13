@@ -6,6 +6,8 @@ On-Chain Canon (OC)
 
 On-Chain Canon (OC) is a decentralized metaprotocol for on-chain IP. Use the OC metaprotocol in combination with parent-child inscriptions to represent on-chain IP provenance, attribution, and ownership.
 
+</br>
+
 * * *
 # Usage
 ## Inscribe content
