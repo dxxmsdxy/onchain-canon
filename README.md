@@ -276,7 +276,7 @@ Existing OC inscriptions can be referenced in both the content and credit fields
 
 `version` refers to the version of the OC protocol.
 
-An inscription with no version indicated is handled as version “1.0”.
+An inscription with no version indicated is handled as version `“1.0”`.
 
 * * * 
 
