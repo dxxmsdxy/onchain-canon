@@ -251,11 +251,12 @@ If credit is associated with specific content, it can be included with the conte
 </br>
 
 ## Recursive applications
-Previous OC inscriptions can be referenced in both the content and credit fields of new OC’s using their inscription ID.
+Existing OC inscriptions can be referenced in both the content and credit fields of new OC’s using their inscription ID.
 
-* Credit prior work, or create teams and nested attribution schemes by including existing OC inscriptions with credits in the `credit` field of new OC inscriptions.
-* Create copies of OC content by including it's inscription ID in the `content` field of a new OC inscription.
-* Create bundles of IP by including multiple existing OC inscriptions in the `content` field of a new OC inscription.
+* Credit prior work by including existing OC inscriptions in the `credit` field. 
+* Reuse previous teams, or create nested attribution schemes by including existing OC inscriptions with multiple credits in the `credit` field.
+* Create copies of OC content by including existing OC inscriptions with content in the `content` field.
+* Create bundles of IP by including multiple existing OC inscriptions with content in the `content` field of a new OC inscription.
 
 </br>
 
