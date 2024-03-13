@@ -54,7 +54,7 @@ Inscribe multiple contents by including them as `content` entries in an array.
 	"p":"oc",
 	"desc":"Null the Cat",
 	"content":"A hyper-dimensional being that has…",
-	"credit":"ae09c10232kjf4J3143k2k82378345smxKz"
+	"credit":"f5ac3eb2ba6dec087a4170735d8865fc0019bff5263d431e0496fe4695651b5ai302"
 }
 ```
 
@@ -73,12 +73,12 @@ An OC inscription with no credits assigned is attributed to its parent inscripti
 	"credit":[
 		{
 			"desc":"Alice",
-			"credit":"ae09c10232kjf4J3143k2k823783smxKz",
+			"credit":"f5ac3eb2ba6dec087a4170735d8865fc0019bff5263d431e0496fe4695651b5ai302",
 			"weight":1
 		},
 		{
 			"desc":"Brolly",
-			"credit":"ae09c10232kjf4J3143k2k823785smxKz",
+			"credit":"bc1q0z5x3rsqjqt59mzs42vrwra83a2upprtm7lkc0",
 			"weight":1
 		}
     ]
@@ -106,11 +106,11 @@ If no weight is specified, it is assumed to be 1.
 	],
 	"credit":[
 		{
-			"credit":"ae09c10232kjf4J3143k2k8...",
+			"credit":"f5ac3eb2ba6dec087a4170735d8865fc0019bff5263d431e0496fe4695651b5ai302",
 			"weight":50
 		},
 		{
-			"credit":"ae09c10232kjf4J3143k2k8...",
+			"credit":"bc1q0z5x3rsqjqt59mzs42vrwra83a2upprtm7lkc0",
 			"weight":100
 		}
 	]
@@ -127,15 +127,15 @@ An OC inscription can hold secret data while still existing transparently on-cha
 	"p":"oc",
 	"credit":[
 		{
-			"credit":"ae09c102jf4J3132k43k2k8...",
+			"credit":"f5ac3eb2ba6dec087a4170735d8865fc0019bff5263d431e0496fe4695651b5ai302",
 			"weight":5
 		},
 		{
-			"credit":"59d00a8eab549f9d59abd8e...",
+			"credit":"bc1q0z5x3rsqjqt59mzs42vrwra83a2upprtm7lkc0",
 			"weight":2
 		},
 		{
-			"credit":"f1gdXf3dx3k43nlNMd5554e...",
+			"credit":"bc1qrhlw047ju02vlt5sk9e9cctn04x8hes5rlc5zl",
 			"weight":1
 		}
 	]
@@ -211,7 +211,9 @@ Previous OC inscriptions can be referenced in both the content and credit fields
 Credit prior work, or create teams and nested attribution schemes by including existing OC inscriptions with credits in the credit field of new OC inscriptions.
 Create copies of an OC by including an existing OC inscription with content in the content field of a new OC inscription while using the original OC inscription as its parent.
 
-Version handling
+* * * 
+
+# Version handling
 ```
 {
 	"p":"oc",
