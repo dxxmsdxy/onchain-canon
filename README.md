@@ -246,7 +246,7 @@ For example, An IP owner could use their own inscription as a parent to create a
 }
 ```
 
-If credit is associated with specific content, it can be included with the content.
+If a credit is associated with specific content, it can be included with the content.
 
 In the above example, Albus and Brolly are credited for their creative work, while Carmen is credited for producing. Albus and Brolly's credits are weighted 3:1 on "Cartesian the Dog". Carmen, the production of "Null the Cat", and the production of "Cartesian the Dog" are all weighted equally (with default weight of 1).
 
