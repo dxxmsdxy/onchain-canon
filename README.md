@@ -187,7 +187,7 @@ Primed OC inscriptions can be normalized by re-inscribing a second sequential bl
 
 Inscribing OC content and/or credit data on a primed OC inscription 'replaces' its previous content.
 
-Replaced OC data remains immutably on-chain.
+Replaced OC data remains immutably on-chain, but is ignored.
 
 Provenance requirements such as a creator address or parent-child can be used to validate changes to OC data.
 
