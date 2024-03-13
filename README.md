@@ -74,7 +74,7 @@ An OC inscription with no credits assigned is attributed to its parent inscripti
 		{
 			"desc":"Alice",
 			"credit":"f5ac3eb2ba6dec087a4170735d8865fc0019bff5263d431e0496fe4695651b5ai302",
-			"weight":1
+			"weight":2
 		},
 		{
 			"desc":"Brolly",
