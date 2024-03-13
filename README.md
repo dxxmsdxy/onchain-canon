@@ -9,7 +9,7 @@ On-Chain Canon (OC) is a decentralized metaprotocol for on-chain IP. Use the OC 
 * * *
 # Usage
 ## Inscribe content
-```
+```json
 {
 	"p":"oc",
 	"desc":"Null the Cat",
@@ -28,7 +28,8 @@ Markdown can be used for rich text content.
 </br>
 
 ## Inscribe multiple contents
-```
+
+```json
 {
 	"p":"oc",
 	"content":[
@@ -51,7 +52,7 @@ Inscribe multiple contents by including them as `content` entries in an array.
 </br>
 
 ## Inscribe content with a credit
-```
+```json
 {
 	"p":"oc",
 	"desc":"Null the Cat",
@@ -67,7 +68,7 @@ An OC inscription with no credits assigned is attributed to its parent inscripti
 </br>
 
 ## Inscribe content with multiple credits
-```
+```json
 {
 	"p":"oc",
 	"desc":"Null the Cat",
@@ -98,7 +99,7 @@ If no weight is specified, it is assumed to be 1.
 </br>
 
 ## Inscribe secret content
-```
+```json
 {
 	"p":"oc",
 	"content":[
@@ -124,7 +125,7 @@ An OC inscription can hold secret data while still existing transparently on-cha
 </br>
 
 ## Inscribe attribution data only
-```
+```json
 {
 	"p":"oc",
 	"credit":[
@@ -153,7 +154,7 @@ Useful for re-using a previous attribution scheme.
 </br>
 
 ## Assigning a license
-```
+```json
 {
 	"p":"oc",
 	"desc":"Null the Cat",
@@ -182,7 +183,7 @@ Provenance requirements such as creator address or parent-child can be used to v
 </br>
 
 ## Replacing OC inscription data
-```
+```json
 {"p":"oc"}
 ```
 
@@ -210,7 +211,7 @@ Extending locking/unlocking permissions to grand-parent inscriptions allows for 
 </br>
 
 ## Nested contents and credits
-```
+```json
 {
 	"p":"oc",
 	"content":[
@@ -261,7 +262,7 @@ Previous OC inscriptions can be referenced in both the content and credit fields
 </br>
 
 ## Version handling
-```
+```json
 {
 	"p":"oc",
 	"desc":"Null the Cat",
@@ -279,7 +280,7 @@ An inscription with no version indicated is handled as version “1.0”.
 </br>
 
 # JSON schema
-```
+```json
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "On-Chain Canon (OC)",
