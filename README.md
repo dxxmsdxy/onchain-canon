@@ -94,7 +94,7 @@ The `credit` field can be used recursively to credit multiple parties.
 
 `desc` can be included to describe the credited entity.
 
-The `weight` value is an integer representing the relative contribution of each party within the scope of the same credit envelope.
+The `weight` value is an integer representing the relative contribution of each credited party within the same scope.
 
 If no weight is specified, it is assumed to be 1.
 
