@@ -21,7 +21,7 @@ OC content inscriptions typically have `desc` and `content` fields.
 
 `content` can be text, a URI, or an inscription ID.
 
-Markdown is ideal for text content.
+Markdown can be used for rich text content.
 
 * * *
 
