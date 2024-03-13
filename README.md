@@ -1,6 +1,6 @@
 On-Chain Canon (OC)
 ===================
-A metaprotocol for on-chain IP and attribution
+A metaprotocol on Bitcoin for on-chain IP and attribution
 
 OC is a decentralized metaprotocol for on-chain canons. Use the OC metaprotocol in combination with parent-child inscriptions to represent on-chain IP provenance, attribution, and ownership.
 
