@@ -241,8 +241,6 @@ Extending locking/unlocking permissions to grand-parent inscriptions allows for 
 
 If credit is associated with specific content, it can be included with the content.
 
-`content` can be included with a credit to indicate what they are credited for.
-
 </br>
 
 ## Recursive applications
