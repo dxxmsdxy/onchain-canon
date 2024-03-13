@@ -11,7 +11,7 @@ OC is a decentralized metaprotocol for on-chain canons. Use the OC metaprotocol 
 {
 	"p":"oc",
 	"desc":"Null the Cat",
-	"content":"A hyper-dimensional being that has…"
+	"content":"A hyper-dimensional being that has assumed the form of a cat."
 }
 ```
 
@@ -32,7 +32,7 @@ Markdown is ideal for text content.
 	"content":[
 		{
 			"desc":"Null the Cat",
-			"content":"A hyper-dimensional being that…"
+			"content":"A hyper-dimensional being that has assumed the form of a cat."
 		},
 		{
 			"desc":"Cartesian the Dog",
@@ -53,7 +53,7 @@ Inscribe multiple contents by including them as `content` entries in an array.
 {
 	"p":"oc",
 	"desc":"Null the Cat",
-	"content":"A hyper-dimensional being that has…",
+	"content":"A hyper-dimensional being that has assumed the form of a cat.",
 	"credit":"f5ac3eb2ba6dec087a4170735d8865fc0019bff5263d431e0496fe4695651b5ai302"
 }
 ```
@@ -69,7 +69,7 @@ An OC inscription with no credits assigned is attributed to its parent inscripti
 {
 	"p":"oc",
 	"desc":"Null the Cat",
-	"content":"A hyper-dimensional being that has…",
+	"content":"A hyper-dimensional being that has assumed the form of a cat.",
 	"credit":[
 		{
 			"desc":"Alice",
@@ -155,7 +155,7 @@ Useful for re-using a previous attribution scheme.
 {
 	"p":"oc",
 	"desc":"Null the Cat",
-	"content":"A hyper-dimensional being that has…",
+	"content":"A hyper-dimensional being that has assumed the form of a cat.",
 	"license":"OCL"
 }
 ```
@@ -175,7 +175,7 @@ If no license is specified, all rights are reserved as normal by their rights ho
 # Appending new OC inscription data
 Additional OC content or credits can be appended by re-inscribing an OC including just the new entries.
 
-Parent-child inscription can be used to validate appended data by requiring a parent.
+Provenance requirements such as creator address or parent-child can be used to validate appended data.
 
 * * * 
 
@@ -192,14 +192,14 @@ Re-inscribing OC content and/or credit data on a primed OC inscription replaces 
 
 Replaced OC data remains immutably on-chain.
 
-Parent-child inscription can be used to validate updates to OC data by requiring a parent.
+Provenance requirements such as a creator address or parent-child can be used to validate changes to OC data.
 
 * * *
 
 # Locking OC inscriptions
 OC inscriptions can be “locked” to prevent future changes.
 
-Parent-child inscription is used for OC locking by simply burning the OC inscription’s parent.
+Parent-child inscription can be used for OC locking by simply burning the OC inscription’s parent.
 
 Extending locking/unlocking permissions to grand-parent inscriptions allows for multi-tiered and provisional governance of OC inscription data.
 
@@ -218,7 +218,7 @@ Create copies of an OC by including an existing OC inscription with content in t
 {
 	"p":"oc",
 	"desc":"Null the Cat",
-	"content":"A hyper-dimensional being that has…",
+	"content":"A hyper-dimensional being that has assumed the form of a cat.",
 	"v":"1.1"
 }
 ```
