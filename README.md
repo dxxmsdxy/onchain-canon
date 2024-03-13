@@ -177,7 +177,9 @@ Additional OC content or credits can be appended by re-inscribing an OC includin
 
 Parent-child inscription can be used to validate appended data by requiring a parent.
 
-Replacing OC inscription data
+* * * 
+
+# Replacing OC inscription data
 ```
 {"p":"oc"}
 ```
