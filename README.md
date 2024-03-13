@@ -216,7 +216,7 @@ For example, An IP owner could use their own inscription as a parent to create a
 					"content":"Creator, Illustrator"
 					"credit":"bc1q0z5x3rsqjqt59mzs42vrwra83a2upprtm7lkc0"
 				}
-			],
+			]
 		},
 		{
 			"desc":"Cartesian the Dog",
