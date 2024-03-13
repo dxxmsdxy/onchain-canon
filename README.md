@@ -145,6 +145,25 @@ Useful for re-using a previous attribution scheme.
 
 </br>
 
+## Re-inscribing OC data on existing inscriptions
+```json
+{
+	"p":"oc",
+	"desc":"Alien Landscape #1",
+	"content":"f5ac3eb2ba6dec087a4170735d8865fc0019bff5263d431e0496fe4695651b5ai302",
+	"credit":"bc1q0z5x3rsqjqt59mzs42vrwra83a2upprtm7lkc0",
+	"license":"OCL"
+}
+```
+
+In addition to OC inscriptions representing remote content, existing inscriptions, such as images or code, can be re-inscribed with OC data that references the original inscription's ID in the `content` field.
+
+For example, owning an art inscription may provide its owner with rights under a particular license.
+
+Note that an existing inscription can also be re-inscribed with OC data representing remote content.
+
+</br>
+
 ## Assigning a license
 ```json
 {
