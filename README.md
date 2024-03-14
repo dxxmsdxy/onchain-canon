@@ -6,6 +6,8 @@ On-chain Canon (OC)
 
 On-chain Canon (OC) is an experimental standard for decentralized on-chain IP. Use the OC standard in combination with parent-child inscriptions to represent on-chain IP provenance, attribution, and ownership.
 
+OC data can be inscribed in the content field or converted from JSON into CBOR and included in the ordinal protocol's metadata field.
+
 </br>
 
 * * *
