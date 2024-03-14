@@ -21,7 +21,7 @@ OC data can be included in the ordinal protocol's content field as JSON or in th
 }
 ```
 
-OC content inscriptions typically have `desc` and `content` fields.
+OC data inscriptions typically have `desc` and `content` fields.
 
 `desc` is not unique or required.
 
