@@ -187,7 +187,7 @@ If no license is specified, all rights are reserved as normal by their rights ho
 </br>
 
 ## Appending new OC inscription data
-Additional OC content or credits can be appended by inscribing on an existing OC (re-instription) including just the new entries.
+Additional OC content or credits can be appended by re-inscribing on an existing OC including just the new entries.
 
 Provenance requirements such as creator address or parent-child can be used to validate appended data.
 
