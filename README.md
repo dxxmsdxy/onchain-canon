@@ -146,21 +146,9 @@ Useful for re-using a previous attribution scheme.
 </br>
 
 ## Re-inscribing OC data on existing inscriptions
-```json
-{
-	"p":"oc",
-	"desc":"Alien Landscape #1",
-	"content":"f5ac3eb2ba6dec087a4170735d8865fc0019bff5263d431e0496fe4695651b5ai302",
-	"credit":"bc1q0z5x3rsqjqt59mzs42vrwra83a2upprtm7lkc0",
-	"license":"OCL"
-}
-```
-
 Existing standard inscriptions, such as images or code, can be re-inscribed with OC data that references that inscription's ID in the `content` field.
 
-For example, owning an art inscription re-inscribed with OC data may provide its owner with rights by including a particular license.
-
-Note that an existing inscription can also be re-inscribed with OC data representing remote content.
+For example, owning an art inscription re-inscribed with OC data by the rights-holder could confer additional rights to its holder by including a particular license.
 
 </br>
 
@@ -180,7 +168,7 @@ The associated license dictates the terms for the OC inscription’s content.
 
 A license can turn an OC inscription into an IP NFT where ownership of the inscription confers rights.
 
-The license can be identified by name or by pointing to an inscription of the license on-chain.
+The license can be identified by name or by pointing to the inscription ID of the license on-chain.
 
 If no license is specified, all rights are reserved as normal by their rights holders, and are not associated with OC inscription ownership in any way.
 
