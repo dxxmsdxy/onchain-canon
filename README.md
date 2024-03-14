@@ -75,26 +75,29 @@ OC inscription content with no credits assigned is credited to its parent inscri
 ```json
 {
 	"p":"oc",
-	"desc":"Null the Cat",
-	"content":"A hyper-dimensional fugitive that has taken the form of a cat.",
+	"desc":"Cartesian the Dog",
+	"content":"A hyper-dimensional detective that has taken the form of a dog."
 	"credit":[
 		{
 			"desc":"Albus",
-			"credit":"f5ac3eb2ba6dec087a4170735d8865fc0019bff5263d431e0496fe4695651b5ai302",
-			"weight":2
+			"content":"Creator"
+			"credit":"bc1q0z5x3rsqjqt59mzs42vrwra83a2upprtm7lkc0",
+			"weight":3
 		},
 		{
 			"desc":"Brolly",
-			"credit":"bc1q0z5x3rsqjqt59mzs42vrwra83a2upprtm7lkc0",
-			"weight":1
+			"content":"Illustrator"
+			"credit":"bc1qrhlw047ju02vlt5sk9e9cctn04x8hes5rlc5zl"
 		}
-    ]
+	]
 }
 ```
 
 The `credit` field can be used recursively to credit multiple parties.
 
 `desc` can be included to describe the credited entity.
+
+Text representing the associated work being credited can be included in the `content` field.
 
 The `weight` value is an integer representing the relative contribution of each credited party within the same scope.
 
@@ -150,7 +153,7 @@ Useful for re-using a previous attribution scheme.
 ## Re-inscribing OC data on existing inscriptions
 Existing standard inscriptions, such as images or code, can be re-inscribed with OC data that references that inscription's ID in the `content` field.
 
-For example, owning an art inscription re-inscribed with OC data by the rights-holder could confer additional rights to its holder by including a particular license.
+For example, owning an art inscription re-inscribed with OC data by the rights-holder could confer additional rights to the inscription holder by including a particular license.
 
 </br>
 
