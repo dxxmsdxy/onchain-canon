@@ -369,7 +369,7 @@ An inscription with no version indicated will be interpreted with the latest ver
     },
     "v": {
       "type": "string",
-      "description": "Version of the OC standard this inscription adheres to."
+      "description": "Optional specified version of the OC standard this inscription adheres to."
     }
   },
   "additionalProperties": false
