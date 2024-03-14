@@ -1,10 +1,10 @@
 ![oc-gray](https://github.com/dxxmsdxy/On-Chain-Canon/assets/154453317/216369ae-6f6a-4c0b-bb8d-737aafd9aeab)
 
-On-Chain Canon (OC)
+On-chain Canon (OC)
 ===================
 ***A standard for on-chain IP and attribution on Bitcoin.***
 
-On-Chain Canon (OC) is a standard for decentralized on-chain IP. Use the OC standard in combination with parent-child inscriptions to represent on-chain IP provenance, attribution, and ownership.
+On-chain Canon (OC) is a standard for decentralized on-chain IP. Use the OC standard in combination with parent-child inscriptions to represent on-chain IP provenance, attribution, and ownership.
 
 </br>
 
