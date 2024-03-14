@@ -6,7 +6,7 @@ On-chain Canon (OC)
 
 On-chain Canon (OC) is an experimental standard for decentralized on-chain IP. Use the OC standard in combination with parent-child inscriptions to represent on-chain IP provenance, attribution, and ownership.
 
-OC inscriptions are a composable, recursive IP primitive tailored to the Bitcoin and Ordinal protocols.
+An OC inscription is a composable, recursive IP primitive tailored to the Bitcoin and Ordinal protocols.
 
 OC data can be included in the ordinal protocol's content field as JSON or in the metadata field in CBOR format.
 
