@@ -4,7 +4,7 @@ On-chain Canon (OC)
 ===================
 ***A standard for on-chain IP and attribution on Bitcoin.***
 
-On-chain Canon (OC) is a standard for decentralized on-chain IP. Use the OC standard in combination with parent-child inscriptions to represent on-chain IP provenance, attribution, and ownership.
+On-chain Canon (OC) is an experimental standard for decentralized on-chain IP. Use the OC standard in combination with parent-child inscriptions to represent on-chain IP provenance, attribution, and ownership.
 
 </br>
 
