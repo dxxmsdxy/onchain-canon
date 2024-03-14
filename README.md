@@ -201,7 +201,7 @@ Inscribing OC content and/or credit data on a primed OC inscription 'replaces' i
 
 Replaced OC data remains immutably on-chain, but is ignored.
 
-Provenance requirements such as a creator address or parent-child can be used to validate changes to OC data.
+Provenance requirements such as creator address or parent-child can be used to validate changes to OC data.
 
 </br>
 
