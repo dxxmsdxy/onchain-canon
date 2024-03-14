@@ -299,7 +299,7 @@ An inscription with no version indicated will be interpreted with the latest ver
 ```json
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "On-Chain Canon (OC)",
+  "title": "On-chain Canon (OC)",
   "type": "object",
   "required": ["p"],
   "properties": {
