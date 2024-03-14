@@ -2,9 +2,9 @@
 
 On-Chain Canon (OC)
 ===================
-***A metaprotocol for on-chain IP and attribution on Bitcoin.***
+***A standard for on-chain IP and attribution on Bitcoin.***
 
-On-Chain Canon (OC) is a metaprotocol for decentralized on-chain IP. Use the OC metaprotocol in combination with parent-child inscriptions to represent on-chain IP provenance, attribution, and ownership.
+On-Chain Canon (OC) is a standard for decentralized on-chain IP. Use the OC standard in combination with parent-child inscriptions to represent on-chain IP provenance, attribution, and ownership.
 
 </br>
 
@@ -96,7 +96,7 @@ The `credit` field can be used recursively to credit multiple parties.
 
 The `weight` value is an integer representing the relative contribution of each credited party within the same scope.
 
-If no weight is specified, it is assumed to be 1.
+If no weight value is specified, it is assumed to be `1`.
 
 </br>
 
@@ -156,9 +156,9 @@ Useful for re-using a previous attribution scheme.
 }
 ```
 
-In addition to OC inscriptions representing remote content, existing inscriptions, such as images or code, can be re-inscribed with OC data that references the original inscription's ID in the `content` field.
+Existing standard inscriptions, such as images or code, can be re-inscribed with OC data that references that inscription's ID in the `content` field.
 
-For example, owning an art inscription may provide its owner with rights by including a particular license.
+For example, owning an art inscription re-inscribed with OC data may provide its owner with rights by including a particular license.
 
 Note that an existing inscription can also be re-inscribed with OC data representing remote content.
 
@@ -267,7 +267,7 @@ For example, An IP owner could use their own inscription as a parent to create a
 
 If a credit is associated with specific content, it can be included with the content.
 
-In the above example, Albus and Brolly are credited for their creative work, while Carmen is credited for producing. The task of producing, the creation of "Null the Cat", and the creation of "Cartesian the Dog" are all weighted equally (with default weight of 1). Albus and Brolly's credits are weighted 3:1 on "Cartesian the Dog".
+In the above example, Albus and Brolly are credited for their creative work, while Carmen is credited for producing. The task of producing, the creation of "Null the Cat", and the creation of "Cartesian the Dog" are all weighted equally with the default weight of 1. Albus and Brolly's credits are weighted 3:1 on "Cartesian the Dog".
 
 Therefore, in this example, Albus is credited the most, Carmen second, and Brolly third.
 
@@ -278,7 +278,7 @@ Existing OC inscriptions can be referenced in both the content and credit fields
 
 * Credit prior work by including existing OC inscriptions in the `credit` field. 
 * Reuse previous teams, or create nested attribution schemes by including existing OC inscriptions with multiple credits in the `credit` field.
-* Create a copy of OC content by including existing an OC inscription with content in the `content` field.
+* Create a copy of OC content by including an existing OC inscription with content in the `content` field.
 * Create bundles of IP by including multiple existing OC inscriptions with content in the `content` field.
 
 </br>
@@ -377,11 +377,11 @@ An inscription with no version indicated is handled as version `“1.0”`.
     },
     "license": {
       "type": "string",
-      "description": "Optional license identifier or inscription ID for on-chain license."
+      "description": "Optional license for attached content, referenced by inscription ID or other identifier."
     },
     "v": {
       "type": "string",
-      "description": "Version of the OC metaprotocol this inscription adheres to."
+      "description": "Version of the OC standard this inscription adheres to."
     }
   },
   "additionalProperties": false
