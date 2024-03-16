@@ -274,7 +274,7 @@ Therefore, in this example, Albus is credited the most, Carmen second, and Broll
 Existing OC inscriptions can be referenced in both the content and credit fields of new OC’s using their inscription ID.
 
 * Reduces the creation of redundant records.
-* Credit prior work by including existing OC inscriptions in the `credit` field. 
+* Credit prior work by including existing OC inscriptions in the `credit` field.
 * Reuse previous teams, or create nested attribution schemes by including existing OC inscriptions with multiple credits in the `credit` field.
 * Create a copy of OC content by including an existing OC inscription with content in the `content` field.
 * Create bundles of IP by including multiple existing OC inscriptions with content in the `content` field.
