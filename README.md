@@ -69,7 +69,7 @@ The `content` field can be used recursively to include multiple contents.
 
 With the `credit` field, an OC inscription's content can be credited to an inscription ID, Bitcoin address, or other identifier.
 
-OC inscription content with no credits assigned is credited to its parent inscription. If there is no parent (or the parent is burned), then it is credited to its original creator’s Bitcoin address.
+OC inscription content with no credits assigned is credited to its parent inscription. If there is no parent (or the parent is burned), then it is credited to its origin Bitcoin address.
 
 </br>
 
@@ -186,7 +186,7 @@ If no license is specified, all rights are reserved as normal by their rights ho
 ## Appending new OC inscription data
 Additional OC content or credits can be appended by re-inscribing on an existing OC including just the new entries.
 
-Provenance requirements such as creator address or parent-child can be used to validate appended data.
+Provenance requirements such as origin address or parent-child can be used to validate appended data.
 
 </br>
 
@@ -205,7 +205,7 @@ Inscribing OC content and/or credit data on a primed OC inscription 'replaces' i
 
 Replaced OC data remains immutably on-chain, but is ignored.
 
-Provenance requirements such as creator address or parent-child can be used to validate changes to OC data.
+Provenance requirements such as origin address or parent-child can be used to validate changes to OC data.
 
 </br>
 
