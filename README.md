@@ -121,6 +121,8 @@ If no weight value is specified, it is assumed to be `1`.
 
 An OC inscription can hold secret data while still existing transparently on-chain by storing only a hash of the content, or storing encrypted data directly.
 
+This is also useful for referencing content that is too large or expensive to store on-chain.
+
 </br>
 
 ## Inscribe attribution data only
