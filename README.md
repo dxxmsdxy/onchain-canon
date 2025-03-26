@@ -1,10 +1,10 @@
 ![oc-gray](https://github.com/dxxmsdxy/On-Chain-Canon/assets/154453317/216369ae-6f6a-4c0b-bb8d-737aafd9aeab)
 
-On-chain Canon (OC)
+Onchain Canon (OC)
 ===================
-***A standard for on-chain IP and attribution on Bitcoin.***
+***A standard for onchain IP and attribution on Bitcoin.***
 
-On-chain Canon (OC) is an experimental standard for decentralized on-chain IP. Use the OC standard in combination with parent-child inscriptions to represent on-chain IP provenance, attribution, and ownership.
+Onchain Canon (OC) is an experimental standard for decentralized onchain IP. Use the OC standard in combination with parent-child inscriptions to represent onchain IP provenance, attribution, and ownership.
 
 An OC inscription is a composable, recursive IP primitive tailored to the Bitcoin and Ordinal protocols.
 
@@ -119,9 +119,9 @@ If no weight value is specified, it is assumed to be `1`.
 }
 ```
 
-An OC inscription can hold secret data while still existing transparently on-chain by storing only a hash of the content, or storing encrypted data directly.
+An OC inscription can hold secret data while still existing transparently onchain by storing only a hash of the content, or storing encrypted data directly.
 
-This is also useful for referencing content that is too large to store directly on-chain.
+This is also useful for referencing content that is too large to store directly onchain.
 
 </br>
 
@@ -177,7 +177,7 @@ The associated license dictates the terms for the OC inscription’s content.
 
 A license can turn an OC inscription into an IP NFT where ownership of the inscription confers rights.
 
-The license can be identified by name or by pointing to the inscription ID of the license on-chain.
+The license can be identified by name or by pointing to the inscription ID of the license onchain.
 
 If no license is specified, all rights are reserved as normal by their rights holders, and are not associated with OC inscription ownership in any way.
 
@@ -203,7 +203,7 @@ Primed OC inscriptions can be normalized by re-inscribing a second sequential bl
 
 Inscribing OC content and/or credit data on a primed OC inscription 'replaces' its previous content.
 
-Replaced OC data remains immutably on-chain, but is ignored.
+Replaced OC data remains immutably onchain, but is ignored.
 
 Provenance requirements such as origin address or parent-child can be used to validate changes to OC data.
 
@@ -303,7 +303,7 @@ An inscription with no version indicated will be interpreted with the latest ver
 ```json
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "On-chain Canon (OC)",
+  "title": "Onchain Canon (OC)",
   "type": "object",
   "required": ["p"],
   "properties": {
